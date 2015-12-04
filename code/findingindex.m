@@ -1,4 +1,6 @@
 function frequency_number = findingindex(circular_convolution,k)
+% domimant frequency indices of the permuted and filtered signals
+
 f_index=1;
 frequency_number=[0 0 0 0 0 0];
 for w=1:k

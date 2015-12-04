@@ -1,13 +1,8 @@
-function [ F_index ] = recover( frequency_number,sigma,tao,N)
-F_index=[0 0 0 0 0 0 0];
-k=1;
-N=630
-while ((k*N+frequency_number-tao)/sigma)<N
-    w = (k*N+frequency_number-tao)/sigma;
-    if rem(w,1) == 0
-        break;
-    else
-        k = k+1;
-    end
+function  recoveredsignal  = recover( f_coefficient,orginalindex,N,sparsity)
+recoveredsignal=zeros(1,N);
+for n=1:N
+for i=1:sparsity
+    recoveredsignal(n)=recoveredsignal(n)+f_coefficient(i)*exp(j*2*pi*orginalindex(i)*(n-1)/N);
 end
+recoveredsignal(n)=recoveredsignal(n)/N;
 end

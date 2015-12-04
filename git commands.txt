@@ -1,0 +1,10 @@
+notice:
+open git bash GUI in the dir of the project. use cd to change dirs, cd .. means upper dir
+
+upload:
+git add 'filename' % . for all files
+git commit -m 'blablabla' % blablabla can be anything
+git push % requires username and password, switch input method after windows pop out.
+
+download:
+git pull 
