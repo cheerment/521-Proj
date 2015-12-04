@@ -25,7 +25,7 @@ for w=1:k
     for i=1:2
         if abs(newF2(i))>0.003
         b(1)=i-1;
-        co(1) = newF2(i)*630/2; % whatch out the coefficient
+        co(1) = newF2(i)*630/2; % what
         end
     end
     for i=1:5

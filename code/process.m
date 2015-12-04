@@ -1,4 +1,6 @@
 function circular_convolution = process(fliter_time,signal,k,N)
+% output: a set of single frequency signals after filter, 
+% rows no. of signals, cols signal index.
 linear_convolution=zeros(k,2*N);
 circular_convolution=zeros(k,N);
 for q=1:k
