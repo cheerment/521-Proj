@@ -3,7 +3,7 @@ function [frequency_number, coeffi] = findingindex(circular_convolution,k,sparsi
 % and their corresponding coefficients.
 % <0.1 will be take as noise.
 f_index=1; % timer 
-threshold = norm(sum(circular_convolution))^2/(N*100); 
+threshold = norm(sum(circular_convolution))^2/(N*1000); 
 coeffi = zeros(1,sparsity);
 frequency_number = zeros(1,sparsity);
 for w=1:k % for each filtered signal

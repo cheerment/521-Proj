@@ -5,7 +5,7 @@ if 1
     primes = [2 5 7 9];
     n=0:(N-1);
     [signal, freqs] = gen_sig(N,sparsity);
-%     signal = awgn(signal,80);
+    signal = awgn(signal,80);
     Fsignal = fft(signal,N); 
     [sigma,tou,p_signal] = permutation(signal);
     k=105; % numbers of filters
@@ -13,9 +13,14 @@ if 1
     circular_convolution = process(fliter_bank,p_signal,k,N); %sets of filtered signals
 end
 %% CRT
-if 0
+if 1
     [frequency_number,f_coefficient] = findingindex(circular_convolution,k,sparsity,primes,N);
     orgidx  = originalindex(frequency_number,sigma,tou,N);
+    if 1
+        % estimate coefficients in another way
+        sam_num = 200;
+        f_coefficient = estcoeffi(orgidx,sam_num,N,sparsity,signal);
+    end
     recoveredsignal  = recover(f_coefficient,orgidx,N,sparsity);
     % unbiased estimater for coefficients
     es_a = zeros(1,1000);
@@ -34,7 +39,7 @@ if 0
     var(es_a);
 end
 %% Phase Encoding
-if 1
+if 0
     % find permuted spectrum indices
     frequency_number = findingindex1(circular_convolution,k,N,sparsity);
     % map back the the original indices

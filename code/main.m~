@@ -15,6 +15,11 @@ end
 %% CRT
 if 0
     [frequency_number,f_coefficient] = findingindex(circular_convolution,k,sparsity,primes,N);
+    if 0
+    % estimate coefficients
+    sam_num = 20;
+    f_coefficient = estcoeffi(orgidx,sam_num,N,sparsity,signal);
+    end
     orgidx  = originalindex(frequency_number,sigma,tou,N);
     recoveredsignal  = recover(f_coefficient,orgidx,N,sparsity);
     % unbiased estimater for coefficients
@@ -35,13 +40,14 @@ if 0
 end
 %% Phase Encoding
 if 1
-    %find permuted spectrum indices
+    % find permuted spectrum indices
     frequency_number = findingindex1(circular_convolution,k,N,sparsity);
+    % map back the the original indices
     orgidx  = originalindex(frequency_number,sigma,tou,N);
     % estimate coefficients
     sam_num = 20;
     f_coefficient = estcoeffi(orgidx,sam_num,N,sparsity,signal);
-    %recover signal
+    % recover signal
     recoveredsignal  = recover(f_coefficient,orgidx,N,sparsity);
 end
 %% plot

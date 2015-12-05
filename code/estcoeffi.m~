@@ -13,6 +13,6 @@ f_coefficient = zeros(1,sparsity);
 % end
 
 W = exp(-1i*2*pi/N*(random_idx-1)'*orgidx);
-f_coefficient = N*estimate*W/sam_num;
+f_coefficient = Nestimate*W;
 
   
