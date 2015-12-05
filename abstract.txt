@@ -1,0 +1,3 @@
+bstract
+The Sparse Fast Fourier Transform is a recent algorithm developed by Hassanieh et al. at MIT for Discrete Fourier Transforms on signals with a sparse frequency domain. A reference implementation of the algorithm exists and proves that the Sparse Fast Fourier Transform can be faster than modern FFT libraries. The SFT is a new FFT algorithm that deal with signals with K-sparse non-zero frequencies. Hence SFT could be used in big data analyze problem such as Radar localization systems. In this report we will illustrate the basic theory of sparse Fourier transform and a simple implementation.% And we will try to compare the efficiency of SFT and FFT in Matlab.
+
