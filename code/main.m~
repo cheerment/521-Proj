@@ -1,11 +1,11 @@
 %% initializing
-if 1
+if 0
     N=630;
     sparsity=6;
     primes = [2 5 7 9];
     n=0:(N-1);
     [signal, freqs] = gen_sig(N,sparsity);
-%     signal = awgn(signal,80);
+    signal = awgn(signal,80);
     Fsignal = fft(signal,N); 
     [sigma,tou,p_signal] = permutation(signal);
     k=105; % numbers of filters
@@ -15,31 +15,16 @@ end
 %% CRT
 if 0
     [frequency_number,f_coefficient] = findingindex(circular_convolution,k,sparsity,primes,N);
-    if 0
-    % estimate coefficients
-    sam_num = 20;
-    f_coefficient = estcoeffi(orgidx,sam_num,N,sparsity,signal);
-    end
     orgidx  = originalindex(frequency_number,sigma,tou,N);
-    recoveredsignal  = recover(f_coefficient,orgidx,N,sparsity);
-    % unbiased estimater for coefficients
-    es_a = zeros(1,1000);
-    es_sam_num = 400;
-    for ii = 1:1000
-        random_idx = randi(630,[1 es_sam_num]);
-        estimate = signal(random_idx);
-        es = 0;
-        for i = 1:es_sam_num
-            es = es + estimate(i)*exp(-1i*2*pi/N*(random_idx(i)-1)*311);
-        end
-        % abs(630*es/18)
-        es_a(ii) = N*es/es_sam_num;
+    if 1
+        % estimate coefficients in another way
+        sam_num = 200;
+        f_coefficient = estcoeffi(orgidx,sam_num,N,sparsity,signal);
     end
-    % 630*abs(es_a/1000)/es_sam_num
-    var(es_a);
+    recoveredsignal  = recover(f_coefficient,orgidx,N,sparsity);
 end
 %% Phase Encoding
-if 1
+if 0
     % find permuted spectrum indices
     frequency_number = findingindex1(circular_convolution,k,N,sparsity);
     % map back the the original indices
@@ -51,7 +36,24 @@ if 1
     recoveredsignal  = recover(f_coefficient,orgidx,N,sparsity);
 end
 %% plot
-subplot(1,2,1);
-plot(n,abs(Fsignal))
-subplot(1,2,2);
-plot(n,abs((fft(recoveredsignal))))
+if 0
+    subplot(1,2,1);
+    plot(n,abs(Fsignal))
+    subplot(1,2,2);
+    plot(n,abs((fft(recoveredsignal))))
+end
+%% influence of num of estimate points
+if 1
+    value = zeros(1,300);
+    f_coefficient_all = zeros(1,sparsity,iter);
+    for num_est = 101:400
+        VAR = zeros(1,sparsity);
+        es_sam_num = 400;
+        for ii = 1:iter
+            f_coefficient_all(:,:,ii) = estcoeffi(orgidx,sam_num,N,sparsity,signal);
+        end
+        VAR = var(f_coefficient_all,1,3);
+        value(iter-100) = mean(VAR);
+    end
+    plot(1:300,value)
+end
