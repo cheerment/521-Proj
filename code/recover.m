@@ -1,4 +1,4 @@
-function  recoveredsignal  = recover( f_coefficient,orginalindex,N,sparsity)
+function  recoveredsignal  = recover(f_coefficient,orginalindex,N,sparsity)
 % recover the original signal by deploying frequencies and ifft
 recoveredsignal=zeros(1,N);
 for n=1:N

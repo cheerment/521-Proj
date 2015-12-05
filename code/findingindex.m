@@ -1,51 +1,33 @@
-function [frequency_number, coeffi] = findingindex(circular_convolution,k)
-% domimant frequency indices of the permuted and filtered signals
+function [frequency_number, coeffi] = findingindex(circular_convolution,k,sparsity,primes,N)
+% domimant frequency indices of the permuted and filtered signals.
 % and their corresponding coefficients.
-
-f_index=1;
-frequency_number=[0 0 0 0 0 0];
-for w=1:k
-    for i=1:2
-    new2(i)=circular_convolution(w,315*(i-1)+1);
-    end
-    for i=1:5
-    new5(i)=circular_convolution(w,126*(i-1)+1);
-    end
-    for i=1:7
-    new7(i)=circular_convolution(w,90*(i-1)+1);
-    end
-    for i=1:9
-    new9(i)=circular_convolution(w,70*(i-1)+1);
-    end
-    newF2=fft(new2,2);
-    newF5=fft(new5,5);
-    newF7=fft(new7,7);
-    newF9=fft(new9,9);
-    b=[0 0 0 0];
-    for i=1:2
-        if abs(newF2(i))>0.003
-        b(1)=i-1;
-        co(1) = newF2(i)*630/2; % whatch out the coefficient
+% <0.1 will be take as noise.
+f_index=1; % timer 
+threshold = norm(sum(circular_convolution))^2/(N*100); 
+coeffi = zeros(1,sparsity);
+frequency_number = zeros(1,sparsity);
+for w=1:k % for each filtered signal
+    if norm(circular_convolution(w,:))^2/N > threshold
+        reminders = zeros(1,length(primes)); %reminders of each prime
+        for l = 1:length(primes) % for each prime number
+            sampledsig = downsample(circular_convolution(w,:),N/primes(l));
+            SAMPLEDSIG = fft(sampledsig,primes(l));
+    %         if mean(N*abs(SAMPLEDSIG)/primes(l)) > threshold %compensate for the 1/N in ifft
+    %             for i=1:primes(l) % for every fre point in the spectrum
+    %                 if abs(N*SAMPLEDSIG(i)/primes(l)) > 0.1 % should be the average energy of sig
+    %                     reminders(l) = i-1;
+    %                     co = SAMPLEDSIG(i)*N/primes(l); % whatch out the N and divisor
+    %                 end
+    %             end
+                [val,y] = max(N*abs(SAMPLEDSIG)/primes(l));
+                reminders(l) = y-1;
+                co = SAMPLEDSIG(y)*N/primes(l);
+    %         end
         end
-    end
-    for i=1:5
-        if abs(newF5(i))>0.003
-        b(2)=i-1;
+        if reminders*reminders'~=0 && f_index<7
+            frequency_number(f_index)=chinese(reminders,primes);
+            coeffi(f_index) = co;
+            f_index=f_index+1;
         end
-    end
-    for i=1:7
-        if abs(newF7(i))>0.003
-        b(3)=i-1;
-        end
-    end
-    for i=1:9
-        if abs(newF9(i))>0.003
-        b(4)=i-1;
-        end
-    end
-    if b*b'~=0
-    frequency_number(f_index)=chinese(b);
-    coeffi(f_index) = co;
-    f_index=f_index+1;
     end
 end

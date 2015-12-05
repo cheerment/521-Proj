@@ -1,14 +1,14 @@
 function  F_index  = originalindex( frequency_number,sigma,tou,N)
-F_index=[0 0 0 0 0 0];
-k=1;
-for t=1:630
+sparsity = length(frequency_number);
+F_index=zeros(1,sparsity);
+for t=1:N
     if mod(t*sigma,N)==1
         break
     end
+end % t is the multiplative inverse of sigma
+for i=1:sparsity    
+    frequency_number(i)=mod(frequency_number(i)-1-tou,N);
 end
-for i=1:6    
-    frequency_number(i)=mod(frequency_number(i)-1-tou,630);
-end
-for i=1:6
-    F_index(i)=rem(frequency_number(i)*t,630);
+for i=1:sparsity
+    F_index(i)=rem(frequency_number(i)*t,N);
 end

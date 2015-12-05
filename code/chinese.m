@@ -1,17 +1,16 @@
-function [ x ] = chinese( b )
-a=[2 5 7 9];
+function x = chinese(reminders,primes)
 M=1;
-y=length(a);
+y=length(primes);
 for i=1:y
-    M=M*a(i);
+    M=M*primes(i);
 end
 for i=1:y
-    Mi(i)=M/a(i);
+    Mi(i)=M/primes(i);
 end
 T=zeros(1,y);
 for i=1:y
     for t=1:M
-        if mod(t*Mi(i),a(i))==1
+        if mod(t*Mi(i),primes(i))==1
             T(i)=t;
             break
         end
@@ -19,6 +18,6 @@ for i=1:y
 end
 x=0;
 for i=1:y
-    x=x+b(i)*Mi(i)*T(i);
+    x=x+reminders(i)*Mi(i)*T(i);
 end
 x=mod(x,M)+1;

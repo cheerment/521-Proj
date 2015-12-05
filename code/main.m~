@@ -35,14 +35,13 @@ if 0
 end
 %% Phase Encoding
 if 1
-    % find permuted spectrum indices
+    %find permuted spectrum indices
     frequency_number = findingindex1(circular_convolution,k,N,sparsity);
-    % map back the the original indices
     orgidx  = originalindex(frequency_number,sigma,tou,N);
     % estimate coefficients
     sam_num = 20;
     f_coefficient = estcoeffi(orgidx,sam_num,N,sparsity,signal);
-    % recover signal
+    %recover signal
     recoveredsignal  = recover(f_coefficient,orgidx,N,sparsity);
 end
 %% plot
