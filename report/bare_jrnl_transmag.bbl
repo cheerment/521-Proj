@@ -1,0 +1,56 @@
+\begin{thebibliography}{1}
+
+\bibitem{chandrakasan1996data}
+Anantha Chandrakasan, Vadim Gutnik, and Thucydides Xanthopoulos.
+\newblock Data driven signal processing: an approach for energy efficient
+  computing.
+\newblock In {\em Proceedings of the 1996 international symposium on Low power
+  electronics and design}, pages 347--352. IEEE Press, 1996.
+
+\bibitem{donoho2006compressed}
+David~L Donoho.
+\newblock Compressed sensing.
+\newblock {\em Information Theory, IEEE Transactions on}, 52(4):1289--1306,
+  2006.
+
+\bibitem{candes2006robust}
+Emmanuel~J Cand{\`e}s, Justin Romberg, and Terence Tao.
+\newblock Robust uncertainty principles: Exact signal reconstruction from
+  highly incomplete frequency information.
+\newblock {\em Information Theory, IEEE Transactions on}, 52(2):489--509, 2006.
+
+\bibitem{lin2011new}
+Mengda Lin, A~Prasad Vinod, and Chong Meng~Samson See.
+\newblock A new flexible filter bank for low complexity spectrum sensing in
+  cognitive radios.
+\newblock {\em Journal of Signal Processing Systems}, 62(2):205--215, 2011.
+
+\bibitem{gilbert2005improved}
+Anna~C Gilbert, S~Muthukrishnan, and Martin Strauss.
+\newblock Improved time bounds for near-optimal sparse fourier representations.
+\newblock In {\em Optics \& Photonics 2005}, pages 59141A--59141A.
+  International Society for Optics and Photonics, 2005.
+
+\bibitem{gilbert2008tutorial}
+Anna~C Gilbert, Martin~J Strauss, Joel Tropp, et~al.
+\newblock A tutorial on fast fourier sampling.
+\newblock {\em Signal processing magazine, IEEE}, 25(2):57--66, 2008.
+
+\bibitem{iwen2010combinatorial}
+Mark~A Iwen.
+\newblock Combinatorial sublinear-time fourier algorithms.
+\newblock {\em Foundations of Computational Mathematics}, 10(3):303--338, 2010.
+
+\bibitem{hassanieh2012simple}
+Haitham Hassanieh, Piotr Indyk, Dina Katabi, and Eric Price.
+\newblock Simple and practical algorithm for sparse fourier transform.
+\newblock In {\em Proceedings of the twenty-third annual ACM-SIAM symposium on
+  Discrete Algorithms}, pages 1183--1194. SIAM, 2012.
+
+\bibitem{hassanieh2012nearly}
+Haitham Hassanieh, Piotr Indyk, Dina Katabi, and Eric Price.
+\newblock Nearly optimal sparse fourier transform.
+\newblock In {\em Proceedings of the forty-fourth annual ACM symposium on
+  Theory of computing}, pages 563--578. ACM, 2012.
+
+\end{thebibliography}

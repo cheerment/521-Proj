@@ -1,0 +1,533 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.27)  8 DEC 2015 14:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**bare_jrnl_transmag.tex
+(./bare_jrnl_transmag.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 458.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip44
+\thm@postskip=\skip45
+\thm@headsep=\skip46
+\dth@everypar=\toks20
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count95
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks24
+\c@algorithm=\count96
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(./bare_jrnl_transmag.aux
+
+LaTeX Warning: Label `est' multiply defined.
+
+)
+\openout1 = `bare_jrnl_transmag.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+
+-- Lines per column: 58 (exact).
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen127
+\scratchbox=\box30
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen128
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks26
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 61.
+\c@thm=\count103
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Package epstopdf Info: Source file: <permutation.eps>
+(epstopdf)                    date: 2015-12-07 19:52:41
+(epstopdf)                    size: 115330 bytes
+(epstopdf)             Output file: <permutation-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 01:24:15
+(epstopdf)                    size: 9844 bytes
+(epstopdf)             Command: <repstopdf --outfile=permutation-eps-converted-
+to.pdf permutation.eps>
+(epstopdf)             \includegraphics on input line 166.
+Package epstopdf Info: Output file is already uptodate.
+
+<permutation-eps-converted-to.pdf, id=13, 562.1pt x 421.575pt>
+File: permutation-eps-converted-to.pdf Graphic file (type pdf)
+
+<use permutation-eps-converted-to.pdf>
+Package pdftex.def Info: permutation-eps-converted-to.pdf used on input line 16
+6.
+(pdftex.def)             Requested size: 258.0pt x 193.49585pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 166--167
+[][] 
+ []
+
+[2 <./permutation-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <bins.eps>
+(epstopdf)                    date: 2015-12-08 02:44:48
+(epstopdf)                    size: 377836 bytes
+(epstopdf)             Output file: <bins-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 02:45:32
+(epstopdf)                    size: 9301 bytes
+(epstopdf)             Command: <repstopdf --outfile=bins-eps-converted-to.pdf 
+bins.eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+<bins-eps-converted-to.pdf, id=35, 562.1pt x 421.575pt>
+File: bins-eps-converted-to.pdf Graphic file (type pdf)
+
+<use bins-eps-converted-to.pdf>
+Package pdftex.def Info: bins-eps-converted-to.pdf used on input line 186.
+(pdftex.def)             Requested size: 258.0pt x 193.49585pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 186--187
+[][] 
+ []
+
+[3 <./bins-eps-converted-to.pdf>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Package epstopdf Info: Source file: <num_est.eps>
+(epstopdf)                    date: 2015-12-07 22:46:09
+(epstopdf)                    size: 18315 bytes
+(epstopdf)             Output file: <num_est-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 04:09:37
+(epstopdf)                    size: 9780 bytes
+(epstopdf)             Command: <repstopdf --outfile=num_est-eps-converted-to.p
+df num_est.eps>
+(epstopdf)             \includegraphics on input line 307.
+Package epstopdf Info: Output file is already uptodate.
+
+<num_est-eps-converted-to.pdf, id=52, 562.1pt x 421.575pt>
+File: num_est-eps-converted-to.pdf Graphic file (type pdf)
+
+<use num_est-eps-converted-to.pdf>
+Package pdftex.def Info: num_est-eps-converted-to.pdf used on input line 307.
+(pdftex.def)             Requested size: 258.0pt x 193.49585pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 307--308
+[][] 
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Package epstopdf Info: Source file: <size.eps>
+(epstopdf)                    date: 2015-12-08 11:42:33
+(epstopdf)                    size: 16738 bytes
+(epstopdf)             Output file: <size-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 11:49:24
+(epstopdf)                    size: 9261 bytes
+(epstopdf)             Command: <repstopdf --outfile=size-eps-converted-to.pdf 
+size.eps>
+(epstopdf)             \includegraphics on input line 322.
+Package epstopdf Info: Output file is already uptodate.
+<size-eps-converted-to.pdf, id=53, 562.1pt x 421.575pt>
+File: size-eps-converted-to.pdf Graphic file (type pdf)
+
+<use size-eps-converted-to.pdf>
+Package pdftex.def Info: size-eps-converted-to.pdf used on input line 322.
+(pdftex.def)             Requested size: 258.0pt x 193.49585pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 322--323
+[][] 
+ []
+
+[4 <./num_est-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <sparsity.eps>
+(epstopdf)                    date: 2015-12-08 11:47:28
+(epstopdf)                    size: 16689 bytes
+(epstopdf)             Output file: <sparsity-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 11:49:24
+(epstopdf)                    size: 9231 bytes
+(epstopdf)             Command: <repstopdf --outfile=sparsity-eps-converted-to.
+pdf sparsity.eps>
+(epstopdf)             \includegraphics on input line 330.
+Package epstopdf Info: Output file is already uptodate.
+
+<sparsity-eps-converted-to.pdf, id=65, 562.1pt x 421.575pt>
+File: sparsity-eps-converted-to.pdf Graphic file (type pdf)
+
+<use sparsity-eps-converted-to.pdf>
+Package pdftex.def Info: sparsity-eps-converted-to.pdf used on input line 330.
+(pdftex.def)             Requested size: 258.0pt x 193.49585pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 330--331
+[][] 
+ []
+
+Package epstopdf Info: Source file: <time.eps>
+(epstopdf)                    date: 2015-12-08 13:21:37
+(epstopdf)                    size: 13866 bytes
+(epstopdf)             Output file: <time-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 13:21:45
+(epstopdf)                    size: 7871 bytes
+(epstopdf)             Command: <repstopdf --outfile=time-eps-converted-to.pdf 
+time.eps>
+(epstopdf)             \includegraphics on input line 337.
+Package epstopdf Info: Output file is already uptodate.
+<time-eps-converted-to.pdf, id=66, 562.1pt x 421.575pt>
+File: time-eps-converted-to.pdf Graphic file (type pdf)
+
+<use time-eps-converted-to.pdf>
+Package pdftex.def Info: time-eps-converted-to.pdf used on input line 337.
+(pdftex.def)             Requested size: 258.0pt x 193.49585pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 337--338
+[][] 
+ []
+
+Package epstopdf Info: Source file: <influ_noise.eps>
+(epstopdf)                    date: 2015-12-06 15:14:41
+(epstopdf)                    size: 14951 bytes
+(epstopdf)             Output file: <influ_noise-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 04:41:27
+(epstopdf)                    size: 8748 bytes
+(epstopdf)             Command: <repstopdf --outfile=influ_noise-eps-converted-
+to.pdf influ_noise.eps>
+(epstopdf)             \includegraphics on input line 348.
+Package epstopdf Info: Output file is already uptodate.
+<influ_noise-eps-converted-to.pdf, id=67, 562.1pt x 421.575pt>
+File: influ_noise-eps-converted-to.pdf Graphic file (type pdf)
+
+<use influ_noise-eps-converted-to.pdf>
+Package pdftex.def Info: influ_noise-eps-converted-to.pdf used on input line 34
+8.
+(pdftex.def)             Requested size: 258.0pt x 193.49585pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 348--349
+[][] 
+ []
+
+[5 <./size-eps-converted-to.pdf> <./sparsity-eps-converted-to.pdf> <./time-eps-
+converted-to.pdf> <./influ_noise-eps-converted-to.pdf>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+(./bare_jrnl_transmag.bbl) [6] (./bare_jrnl_transmag.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2681 strings out of 493089
+ 43314 string characters out of 6134842
+ 110586 words of memory out of 5000000
+ 6130 multiletter control sequences out of 15000+600000
+ 36357 words of font info for 65 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 38i,7n,23p,1729b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on bare_jrnl_transmag.pdf (6 pages, 216466 bytes).
+PDF statistics:
+ 152 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+
